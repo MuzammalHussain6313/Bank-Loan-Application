@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1199.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserinterfaceLayer.NewAppController">
+   <children>
+      <AnchorPane layoutX="16.0" layoutY="-1.0" prefHeight="67.0" prefWidth="1157.0" style="-fx-background-color: Black;">
+         <children>
+            <Label layoutX="341.0" layoutY="6.0" prefHeight="55.0" prefWidth="659.0" text="SILKOPS A Loan Application Form" textFill="#fbfcf3">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="17.0" layoutY="82.0" prefHeight="532.0" prefWidth="565.0" style="-fx-background-color: White;">
+         <children>
+            <AnchorPane layoutX="21.0" layoutY="2.0" prefHeight="67.0" prefWidth="524.0" scaleZ="21.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="128.0" layoutY="4.0" text="Personal Information" textFill="#fbfcf3">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="22.0" layoutY="82.0" text="Name" textFill="#0f1101" />
+            <Label layoutX="17.0" layoutY="129.0" text="Father  Name" textFill="#151702" />
+            <Label layoutX="16.0" layoutY="169.0" text="CNIC" textFill="#151701" />
+            <Label layoutX="17.0" layoutY="214.0" text="DOB" textFill="#181b02" />
+            <Label layoutX="17.0" layoutY="261.0" text="Phone Number" textFill="#1b1e02" />
+            <Label layoutX="22.0" layoutY="310.0" text="Mobile Number" textFill="#1e2202" />
+            <Label layoutX="22.0" layoutY="355.0" text="Account Number" textFill="#181b01" />
+            <Label layoutX="22.0" layoutY="460.0" text="Permanent Adress" textFill="#272c01" />
+            <TextArea layoutX="231.0" layoutY="399.0" prefHeight="124.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="78.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="124.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="164.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="209.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="256.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="305.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="231.0" layoutY="350.0" prefHeight="31.0" prefWidth="308.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="660.0" layoutY="270.0" prefHeight="206.0" prefWidth="513.0" style="-fx-background-color: White;">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="513.0" style="-fx-background-color: Black;">
+               <children>
+                  <Label layoutX="140.0" text="Job Information" textFill="#fbfcf3">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="14.0" layoutY="76.0" text="Yearly incom" textFill="#0f1101" />
+            <Label layoutX="14.0" layoutY="131.0" text="Job Detail" textFill="#1b1e01" />
+            <TextArea layoutX="196.0" layoutY="116.0" prefHeight="77.0" prefWidth="308.0" />
+            <TextField layoutX="196.0" layoutY="71.0" prefHeight="31.0" prefWidth="308.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="660.0" layoutY="86.0" prefHeight="173.0" prefWidth="513.0" style="-fx-background-color: White;">
+         <children>
+            <AnchorPane layoutX="4.0" layoutY="6.0" prefHeight="55.0" prefWidth="506.0" style="-fx-background-color: Black;">
+               <children>
+                  <Label layoutX="107.0" layoutY="4.0" text="Reference Information" textFill="#fbfcf3">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="19.0" layoutY="83.0" text="Name" textFill="#1e2203" />
+            <Label layoutX="19.0" layoutY="135.0" text="Mobile Number" textFill="#212503" />
+            <TextField layoutX="183.0" layoutY="78.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="183.0" layoutY="130.0" prefHeight="31.0" prefWidth="308.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="660.0" layoutY="481.0" prefHeight="206.0" prefWidth="513.0" style="-fx-background-color: White;">
+         <children>
+            <AnchorPane layoutX="3.0" layoutY="6.0" prefHeight="58.0" prefWidth="506.0" style="-fx-background-color: Black;">
+               <children>
+                  <Label layoutX="145.0" text="Loan Information" textFill="#fbfcf3">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="14.0" layoutY="96.0" text="Amount" textFill="#1b1e03" />
+            <Label layoutX="14.0" layoutY="157.0" text="Duration(Months)" textFill="#181b02" />
+            <TextField layoutX="166.0" layoutY="143.0" prefHeight="31.0" prefWidth="308.0" />
+            <TextField layoutX="166.0" layoutY="91.0" prefHeight="31.0" prefWidth="308.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="18.0" layoutY="628.0" prefHeight="58.0" prefWidth="565.0" style="-fx-background-color: Black;">
+         <children>
+            <Button fx:id="cancel" layoutX="101.0" layoutY="17.0" mnemonicParsing="false" onAction="#cancelApplication" prefHeight="25.0" prefWidth="104.0" text="Cancel" textFill="#bc1414" />
+            <Button fx:id="submitApp" layoutX="364.0" layoutY="17.0" mnemonicParsing="false" onAction="#submittApplication" prefHeight="25.0" prefWidth="104.0" text="Submit" textFill="#170202" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
