@@ -13,7 +13,7 @@ SILKOPS is a bank Loan Application, build in Java FX for GUI, JDBC, mySQL and Ja
 <img src="assets/home.PNG" width="500" height="200">
 
 <h2>New Applicaion Form</h2>
-<img src="assets/newApp.PNG" width="500" height="400">
+<img src="assets/newApp.PNG" width="700" height="400">
 
 <h2>Review Appliction and Accept OR reject loan Application.</h2>
-<img src="assets/reviewApp.PNG" width="500" height="400">
+<img src="assets/reviewApp.PNG" width="700" height="400">
